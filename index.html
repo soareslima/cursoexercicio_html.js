@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML JS</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Comparator JS</h1>
+        <form action="" id="myForm" class="form-container" onsubmit="return validacaoJs()">
+            <label for="name1">First name</label>
+            <input type="text" name="name1" id="name1">
+            <p class="error1"><strong>Full name</strong></p>
+
+            <label for="age1">First age</label>
+            <input type="number" name="age1" id="age1">
+
+            <label for="namcomparee2">Second name</label>
+            <input type="text" name="name2" id="name2">
+            <p class="error2"><strong>Full name</strong></p>
+
+            <label for="age2">Second age</label>
+            <input type="number" name="age2" id="age2">
+
+            <button id="compareButton" class="btn" type="button" onclick="validacaoJs()">Compare</button>
+        </form>
+    </div>
+</body>
+</html>
